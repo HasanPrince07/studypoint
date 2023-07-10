@@ -1,0 +1,326 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+
+#header img{
+  width: 75px;
+}
+#header a{
+  color: #fff;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 900;
+}
+#header .navbar-collapse{
+  flex-grow: unset;
+}
+#header ul li a{
+  font-size: 18px;
+}
+#header ul li a:hover{
+  color: rgb(153, 153, 153);
+}
+
+
+
+
+#signup .row{
+  height: 538px;
+}
+#signup .row .col-md-5{
+  padding: 75px 25px;
+}
+#signup h2{
+  font-family: 'Kanit', sans-serif;
+}
+#signup label{
+  font-size: 20px;
+  font-family: 'Kanit', sans-serif;
+}
+#signup a{
+  font-family: 'Kanit', sans-serif;
+}
+#signup button{
+  font-family: 'Kanit', sans-serif;
+}
+
+
+
+
+#dashboard .row{
+  min-height: 385px;
+}
+#dashboard h2,h4,th,label{
+  font-family: 'Kanit', sans-serif;
+}
+#dashboard table img{
+  width: 80px;
+}
+
+
+
+
+#modal{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(189,189,189,0.7);
+  display: flex;
+  align-items: center;
+}
+#modal .col-md-5{
+  border-radius: 5px;
+}
+#modal h2,button{
+  font-family: 'Kanit', sans-serif;
+} 
+
+
+
+
+#slider{
+  position: relative;
+}
+#slider .indicatorbtn{
+  width: 60px;
+  height: 5px;
+  margin-bottom: 10px;
+}
+#slider img{
+  width: 100%;
+  height: 698px;
+  object-fit: cover;
+}
+#slider .captiondiv1{
+  position: absolute;
+  bottom: 80px;
+}
+#slider .captiondiv2{
+  position: absolute;
+  bottom: 80px;
+  align-items:stretch;
+  padding: 0px;
+}
+#slider .captiondiv2 .col-md-3{
+  border: 2px solid white;
+  height: 158px;
+  margin: 10px 0px;
+}
+#slider .captiondiv2 h2{
+  font-family: 'Kanit', sans-serif;
+}
+#slider .captiondiv2 h3{
+  font-family: 'Kanit', sans-serif;
+}
+#slider .captiondiv3{
+  position: absolute;
+  bottom: 100px;
+  margin-left: 100px;
+  align-items:stretch;
+  padding: 0px;
+  width: 800px;
+  height: 105px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+#slider .captiondiv3 .innercaptiondiv2{
+  border-right: 1px solid black;
+}
+#slider .captiondiv3 h3{
+  color: black;
+  font-family: 'Kanit', sans-serif;
+}
+#slider .captiondiv3 .row{
+  padding: 15px 0px;
+}
+#slider .captiondiv3 h5{
+  color: black;
+  font-family: 'Kanit', sans-serif;
+}
+#slider h2{
+  text-align: center;
+  font-family: 'Kanit', sans-serif;
+  font-size: 50px;
+}
+#slider span{
+  width: 200px;
+}
+
+
+
+
+#book{
+  margin-top: 40px;
+}
+#book h2{
+  font-family: 'Kanit', sans-serif;
+}
+#book button{
+  font-family: 'Kanit', sans-serif;
+}
+
+
+
+
+#course h2{
+  font-family: 'Kanit', sans-serif;
+}
+#course li{
+  font-size: 20px;
+  font-family: 'Kanit', sans-serif;
+}
+#course .coursedetail{
+  height: 100%;
+}
+#course label{
+  font-family: 'Kanit', sans-serif;
+}
+#course button{
+  font-family: 'Kanit', sans-serif;
+}
+
+
+
+
+#testi .col-md-3{
+  margin-top: 10px;
+}
+#testi img{
+  width: 100px;
+  margin-top: 10px;
+  align-self: center;
+}
+#testi h3{
+  font-family: 'Kanit', sans-serif;
+}
+#testi h5{
+  font-family: 'Kanit', sans-serif;
+}
+#testi p{
+  font-family: 'Kanit', sans-serif;
+}
+#testi a{
+  font-family: 'Kanit', sans-serif;
+  margin-top: 10px;
+}
+#testi .card{
+  min-height: 380px;
+}
+#testi .card-body div{
+  min-height: 100px;
+}
+#testi .servicesi{
+  font-size: 100px;
+}
+#testi button{
+  font-size: 20px;
+}
+#testi .emoji{
+  width: 35px;
+  margin-left: 20px;
+  margin-top: 0px;
+}
+
+
+
+
+#testipage h2{
+  font-family: 'Kanit', sans-serif;
+}
+#testipage .row{
+  min-height: 290px;
+}
+#testipage label{
+  font-size: 20px;
+}
+#testipage button{
+  font-size: 20px;
+}
+
+
+
+
+#moredetaile h2{
+  font-family: 'Kanit', sans-serif;
+}
+#moredetaile .col-md-12{
+  min-height: 383px;
+}
+
+
+
+#module{
+  min-height: 455px;
+  display: flex;
+  align-items: center;
+}
+#module h2{
+  font-family: 'Kanit', sans-serif;
+}
+
+
+
+
+#query h2{
+  font-family: 'Kanit', sans-serif;
+  font-size: 40px;
+}
+#query label{
+  font-family: 'Kanit', sans-serif;
+  font-size: 20px;
+}
+
+
+
+
+#footer img{
+  width: 70px;
+  margin-right: 20px;
+}
+#footer h4{
+  color: white;
+  font-family: 'Kanit', sans-serif;
+}
+#footer h3{
+  color: white;
+  font-family: 'Kanit', sans-serif;
+}
+#footer i{
+  color: white;
+}
+#footer span{
+  color: white;
+  font-family: 'Kanit', sans-serif;
+  padding-left: 10px;
+  font-size: 17px;
+}
+#footer #links i{
+  padding-right: 20px;
+  font-size: 25px;
+}
+#footer .bg-light p{
+  font-family: 'Kanit', sans-serif;
+  margin: 0px;
+  padding: 5px 0px;
+}
+#footer .bg-light p i{
+  color: black;
+  padding-right: 10px;
+}
+
+
+
+
